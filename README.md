@@ -51,8 +51,8 @@ Each project in this series maps to a core DBA responsibility:
 | ----------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------------- |
 | [performance_monitoring_pipeline](https://github.com/crispusomollo/Performance-Monitoring-Pipeline) | Automates collection of metrics and system health      | Pipeline logs, AWR captures, SQL tuning checks                         |
 | [alerting_engine](link-to-repo)                 | Threshold-based alerting of critical metrics           | CPU, blocking sessions, I/O alerts                                     |
-| [session_lock_monitoring](link-to-repo)         | Session-level and locking issue monitoring             | Blocking vs blocked sessions, log tracking                             |
-| [resource_manager](link-to-repo)                | Oracle Resource Manager automation                     | CPU & I/O plan creation and verification                               |
+| [session_lock_monitoring](https://github.com/crispusomollo/Oracle-Session-Locking-and-Monitoring)         | Session-level and locking issue monitoring             | Blocking vs blocked sessions, log tracking                             |
+| [resource_manager](https://github.com/crispusomollo/Oracle-Resource-Manager)                | Oracle Resource Manager automation                     | CPU & I/O plan creation and verification                               |
 | [oracle-indexing-strategy](link-to-repo)        | Evidence-driven indexing for performance remediation   | Linked to CPU saturation incident, safe creation, rollback, validation |
 | [oracle-partitioning-strategy](link-to-repo)    | Partitioning for scalability and long-term performance | (Future addition)                                                      |
 | [dbms_scheduler_automation](link-to-repo)       | Automated DB jobs scheduling                           | Runs pipelines, maintenance, index reviews                             |
