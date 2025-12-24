@@ -49,7 +49,7 @@ Each project in this series maps to a core DBA responsibility:
 
 | Repo                                            | Purpose                                                | Key Highlights                                                         |
 | ----------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------------- |
-| [performance_monitoring_pipeline](link-to-repo) | Automates collection of metrics and system health      | Pipeline logs, AWR captures, SQL tuning checks                         |
+| [performance_monitoring_pipeline](https://github.com/crispusomollo/Performance-Monitoring-Pipeline) | Automates collection of metrics and system health      | Pipeline logs, AWR captures, SQL tuning checks                         |
 | [alerting_engine](link-to-repo)                 | Threshold-based alerting of critical metrics           | CPU, blocking sessions, I/O alerts                                     |
 | [session_lock_monitoring](link-to-repo)         | Session-level and locking issue monitoring             | Blocking vs blocked sessions, log tracking                             |
 | [resource_manager](link-to-repo)                | Oracle Resource Manager automation                     | CPU & I/O plan creation and verification                               |
