@@ -1,11 +1,11 @@
-# 🧠 Oracle DBA Automation Series
+# Oracle DBA Automation Series
 
 [![Oracle](https://img.shields.io/badge/Oracle-DBA-red)](https://www.oracle.com/database/)
 [![Python](https://img.shields.io/badge/Python-Automation-blue)](https://www.python.org/)
 [![Shell](https://img.shields.io/badge/Shell-Scripting-green)](https://www.gnu.org/software/bash/)
 [![Status](https://img.shields.io/badge/Portfolio-Production%20Grade-brightgreen)](#)
 
-A curated portfolio of **production-oriented Oracle DBA automation projects** demonstrating how database administrators **monitor, diagnose, control, and optimize performance** using SQL, Python, and shell scripting.
+A curated portfolio of **production-oriented Oracle DBA automation projects** demonstrating how database administrators **monitor, diagnose, control, and optimize performance** using SQL, Python, and shell scripting. This series demonstrates real-world DBA operations: detection, alerting, incident response, remediation, and preventive measures. Each repo is interlinked, showing end-to-end operational thinking.
 
 ---
 
@@ -45,7 +45,18 @@ Each project in this series maps to a core DBA responsibility:
 
 ---
 
-## 📦 Projects in the Series
+## 📁 Repositories (Projects) in the Series
+
+| Repo                                            | Purpose                                                | Key Highlights                                                         |
+| ----------------------------------------------- | ------------------------------------------------------ | ---------------------------------------------------------------------- |
+| [performance_monitoring_pipeline](link-to-repo) | Automates collection of metrics and system health      | Pipeline logs, AWR captures, SQL tuning checks                         |
+| [alerting_engine](link-to-repo)                 | Threshold-based alerting of critical metrics           | CPU, blocking sessions, I/O alerts                                     |
+| [session_lock_monitoring](link-to-repo)         | Session-level and locking issue monitoring             | Blocking vs blocked sessions, log tracking                             |
+| [resource_manager](link-to-repo)                | Oracle Resource Manager automation                     | CPU & I/O plan creation and verification                               |
+| [oracle-indexing-strategy](link-to-repo)        | Evidence-driven indexing for performance remediation   | Linked to CPU saturation incident, safe creation, rollback, validation |
+| [oracle-partitioning-strategy](link-to-repo)    | Partitioning for scalability and long-term performance | (Future addition)                                                      |
+| [dbms_scheduler_automation](link-to-repo)       | Automated DB jobs scheduling                           | Runs pipelines, maintenance, index reviews                             |
+
 
 ### 🧪 0. Performance Monitoring Pipeline (End-to-End DBA Workflow)
 
