@@ -110,7 +110,9 @@ This mirrors **real on-call DBA behavior** in enterprise environments.
 [![Repo](https://img.shields.io/badge/GitHub-View%20Repo-black)](https://github.com/crispusomollo/Performance-Monitoring-Pipeline)
 
 **Purpose:** Detect performance degradation early
+
 **Focus:** CPU, IO, waits, sessions, locks
+
 ➡️ Feeds metrics into the alerting layer
 
 ---
@@ -120,7 +122,9 @@ This mirrors **real on-call DBA behavior** in enterprise environments.
 [![Repo](https://img.shields.io/badge/GitHub-View%20Repo-black)](https://github.com/crispusomollo/Oracle-Resource-Manager)
 
 **Purpose:** Control & Workload Governance
+
 **Focus:** Workload isolation, Resource Manager plan
+
 ➡️ Prevents performance incidents before they occur.
 
 ---
@@ -130,7 +134,9 @@ This mirrors **real on-call DBA behavior** in enterprise environments.
 [![Repo](https://img.shields.io/badge/GitHub-View%20Repo-black)](https://github.com/crispusomollo/Oracle-Session-Locking-and-Monitoring)
 
 **Purpose:** Detection & Incident Diagnosis
+
 **Focus:** Active sessions, Blocking and locks, waits, logging
+
 ➡️ First-response tooling when users report performance issues.
 
 ---
@@ -140,7 +146,9 @@ This mirrors **real on-call DBA behavior** in enterprise environments.
 [![Repo](https://img.shields.io/badge/GitHub-View%20Repo-black)](https://github.com/crispusomollo/Oracle-Alerting-Engine)
 
 **Purpose:** Decide when metrics become incidents
+
 **Focus:** Thresholds, severity, incident creation
+
 ➡️ Triggers remediation workflows
 
 ---
@@ -150,7 +158,9 @@ This mirrors **real on-call DBA behavior** in enterprise environments.
 [![Repo](https://img.shields.io/badge/GitHub-View%20Repo-black)](https://github.com/crispusomollo/Oracle-Indexing-Strategy-Optimization)
 
 **Purpose:** Immediate, low-risk performance relief
+
 **Focus:** Missing indexes, unused indexes, CPU-heavy SQL
+
 ➡️ Tactical fix during live incidents
 
 ---
@@ -160,7 +170,9 @@ This mirrors **real on-call DBA behavior** in enterprise environments.
 [![Repo](https://img.shields.io/badge/GitHub-View%20Repo-black)](https://github.com/crispusomollo/Oracle-Partitioning-Strategy)
 
 **Purpose:** Structural, long-term optimization
+
 **Focus:** Large tables, growth trends, pruning
+
 ➡️ Prevents repeat incidents
 
 ---
@@ -170,7 +182,9 @@ This mirrors **real on-call DBA behavior** in enterprise environments.
 [![Repo](https://img.shields.io/badge/GitHub-View%20Repo-black)](https://github.com/crispusomollo/DBMS-Scheduler-Automation)
 
 **Purpose:** Make fixes repeatable and preventative
+
 **Focus:** Scheduled reviews, job chains, maintenance windows
+
 ➡️ Reduces manual DBA workload
 
 ---
@@ -178,7 +192,9 @@ This mirrors **real on-call DBA behavior** in enterprise environments.
 ### 📋 Incidents & Runbooks
 
 **Purpose:** Show operational maturity
+
 **Focus:** Real incident reports, decision logic, on-call steps
+
 ➡️ Demonstrates production readiness
 
 ---
